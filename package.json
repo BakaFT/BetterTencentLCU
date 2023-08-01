@@ -1,0 +1,19 @@
+{
+  "name": "better-lcu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.js --bundle --format=esm --minify --outfile=index.js",
+    "start": "nodemon -e js -w . -w ./hooks -i index.js --exec \"npm run build\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@esbuild/win32-x64": "^0.18.17",
+    "ajax-hook": "^3.0.1",
+    "esbuild": "^0.18.17",
+    "nodemon": "^3.0.1"
+  }
+}
