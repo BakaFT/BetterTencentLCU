@@ -21,7 +21,7 @@
 插件实现了：
 
 - Ember.js中`Extend()`方法的Hook，从而修改LCU中Ember Components，修改客户端的几乎任何部分
-- XHR hook，从而实现对LCU API CALL的类MTM攻击，如修改API返回结果，从而欺骗LCU
+- XHR hook，从而实现对LCU API CALL的类MITM攻击，如修改API返回结果，从而欺骗LCU
 
 通过这两个功能，我重新实现了LCUFIXTOOL的大部分功能，你可以基于这些继续进行开发
 
