@@ -2,7 +2,7 @@
 
 这是一个 [Pengu Loader](https://github.com/PenguLoader/PenguLoader) 插件
 
-**这个插件仅支持 Pengu Core 1.0.6-beta，如需预编译产物，请在[此处下载](https://github.com/BakaFT/PenguLoader/actions/runs/5706611222)为国服适配好的版本**
+**这个插件仅支持 Pengu Core 1.0.6-beta，如需预编译产物，请在[此处下载](https://github.com/BakaFT/PenguLoader/actions/)为国服适配好的版本**
 
 # 功能
 
