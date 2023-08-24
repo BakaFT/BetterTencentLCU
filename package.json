@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild app.js --bundle --format=esm --minify --outfile=index.js",
+    "build": "esbuild app.js --bundle --format=esm --minify --outfile=BetterTencentLCU.js",
     "start": "nodemon -e js -w . -w ./hooks -i index.js --exec \"npm run build\""
   },
   "keywords": [],
