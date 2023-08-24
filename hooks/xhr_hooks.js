@@ -27,5 +27,17 @@ export const XHR_HOOKS = [
         postSend: (response) => {
             response.response = "FUCK U TENCENT"
         }
+    },
+    {
+        // 批量分解开关
+        matcher: "/lol-loot/v1/mass-disenchant/configuration",
+        preSend: (XhrRequestConfig) => {},
+        postSend: (response) => {
+            const respJson = JSON.parse(response.response)
+            respJson["enabled"] = true
+            respJson["maxLootItemsSizeMassCraft"] = "99999"
+            response.response = JSON.stringify(respJson)
+            
+        }
     }
 ]
